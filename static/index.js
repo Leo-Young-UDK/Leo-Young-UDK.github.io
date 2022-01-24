@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '池沼不如的屑';
-    if (score <= 99) return '我才你是朗读兄贵吧';
-    if (score <= 149) return '您是HNS本人吗？';
-    if (score <= 199) return '二人幸福kiss☆幸终';
+    if (score <= 49) return "池沼不如的屑";
+    if (score <= 99) return "我猜你是朗读兄贵吧";
+    if (score <= 149) return "您是HNS本人吗？";
+    if (score <= 199) return "二人幸福kiss☆幸终";
     return '人？';
 }
 
