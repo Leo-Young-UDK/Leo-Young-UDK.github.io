@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '？';
-    if (score <= 99) return '？';
-    if (score <= 149) return "？";
-    if (score <= 199) return "？";
-    return '？';
+    if (score <= 19) return '池沼不如';
+    if (score <= 29) return '你就是朗读兄贵？';
+    if (score <= 59) return "请问是HNS小姐本人吗？";
+    if (score <= 79) return "二人kiss☆一转幸终";
+    return '您一定是魔理沙厨吧';
 }
 
 function toStr(obj) {
